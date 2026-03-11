@@ -1,0 +1,11 @@
+#include <stdio.h> 
+
+int main() {
+    int a = 7;       // Declare and initialize the first integer
+    int b = 6;       // Declare and initialize the second integer
+
+    // Display the result of multiplication using the * operator
+    printf("Product = %d", a * b);  // Output: 42
+
+    return 0;  
+}
