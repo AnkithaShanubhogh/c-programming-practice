@@ -1,0 +1,11 @@
+#include <stdio.h> 
+
+int main() {
+    // Declare float variables to store marks in three subjects
+    float sub1=85.5;
+    float sub2=90.0;
+    float sub3=88.3;
+    //calculating Total marks of 3 subjects
+    printf("Total Marks = %.1f" , sub1+sub2+sub3);
+    return 0; 
+}
