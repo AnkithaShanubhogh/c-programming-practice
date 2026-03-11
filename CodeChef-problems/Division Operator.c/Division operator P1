@@ -1,0 +1,13 @@
+//dataType quotient = dividend / divisor;
+
+#include <stdio.h>  
+
+int main() {
+    int a = 20;      // Declare and initialize the dividend
+    int b = 4;       // Declare and initialize the divisor
+
+    // Display the result of division using the / operator
+    printf("Quotient = %d", a / b);  // Output: 5
+
+    return 0; 
+}
