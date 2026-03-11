@@ -1,0 +1,24 @@
+#include <stdio.h>  
+
+int main() {
+    // Declare and initialize variable 
+    int totalChocolates = 123;     // Total chocolates to be packed
+    int boxCapacity = 12;          // Each box can hold 12 chocolates
+
+    
+    // Calculate number of full boxes using integer division
+    int fullBoxes = totalChocolates / boxCapacity;
+    
+    int packedChocolates = fullBoxes * boxCapacity;
+    // Calculate leftover chocolates that don't fit into full boxes
+    int remainingChocolates = totalChocolates - packedChocolates; 
+
+    // Print all results
+    printf("Total Chocolates: %d\n",totalChocolates);    
+    printf("Box Capacity: %d\n", boxCapacity);            
+    printf("Full Boxes: %d\n", fullBoxes);                
+    printf("Remaining Chocolates: %d\n", remainingChocolates);
+
+
+    return 0; 
+}
