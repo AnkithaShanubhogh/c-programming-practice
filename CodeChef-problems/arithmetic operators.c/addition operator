@@ -1,0 +1,11 @@
+#include <stdio.h> 
+
+int main() {
+    int a = 5;       // Declare and initialize the first integer
+    int b = 10;      // Declare and initialize the second integer
+
+    // Display the result of the addition using the + operator to add a and b
+    printf("Sum = %d", a + b);  // Output: 15
+
+    return 0; 
+}
