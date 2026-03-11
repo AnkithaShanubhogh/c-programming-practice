@@ -1,0 +1,18 @@
+#include <stdio.h>  
+
+int main() {
+    // Declare and initialize two double variable and int variable
+    double num1 = 130.0;  
+    double num2 = 3.0;        
+    int num3 = 4;         
+
+    // Perform floating-point division
+    double result1 = num1 / num2;  // double / double    
+    double result2 = num1 / num3;  // double / int -> promoted to double division   
+
+    // Print results with 2 decimal places
+    printf("Result1: %.2f\n", result1);       
+    printf("Result2: %.2f\n", result2);  
+
+    return 0; 
+}
