@@ -1,0 +1,20 @@
+#include <stdio.h>  
+
+int main() {
+    // Declare and initialize the variable 
+    int ticketPrice = 120;     // Cost of one movie ticket in ?
+    int ticketsSold = 50;      // Total tickets sold
+    int expenses = 300;        // Fixed expenses for the day
+    int snackEarnings = 500;   // Extra income from snacks
+    
+    // Write Your Code
+    int GrossRevenue = ticketPrice * ticketsSold; 
+    int AfterExpenses = GrossRevenue - expenses;
+    int FinalTotal = snackEarnings + AfterExpenses;
+    
+    // Print all the results
+    printf("Gross Revenue from Tickets: %d\n", GrossRevenue);
+    printf("After Expenses: %d\n" , AfterExpenses);
+    printf("Final Total with Snacks: %d" , FinalTotal);
+    return 0;  
+}
